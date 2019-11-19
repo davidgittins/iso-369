@@ -1,6 +1,6 @@
 {
-  "name": "davidgittins/iso-369",
-  "description": "PHP package to aid working with ISO-369-1",
+  "name": "davidgittins/iso-639",
+  "description": "PHP package to aid working with ISO-639-1",
   "minimum-stability": "dev",
   "license": "proprietary",
   "authors": [
@@ -11,16 +11,16 @@
   ],
   "autoload": {
     "psr-4": {
-      "ISO369\\": "src/ISO369/"
+      "ISO639\\": "src/ISO639/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "ISO369\\Laravel\\ServiceProvider"
+        "ISO639\\Laravel\\ServiceProvider"
       ],
       "aliases": {
-        "ISO369": "ISO369\\Laravel\\Facade"
+        "ISO639": "ISO639\\Laravel\\Facade"
       }
     }
   }

@@ -1,6 +1,6 @@
 <?php
 
-namespace ISO369;
+namespace ISO639;
 
 class ISO639
 {
