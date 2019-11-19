@@ -1,0 +1,24 @@
+{
+  "name": "davidgittins/iso-369",
+  "description": "PHP package to aid working with ISO-369-1",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "David Gittins",
+      "email": "dagittins@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ISO369\\": "src/ISO369/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ISO369\\Laravel\\ServiceProvider"
+      ]
+    }
+  }
+}
