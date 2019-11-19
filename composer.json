@@ -18,7 +18,10 @@
     "laravel": {
       "providers": [
         "ISO369\\Laravel\\ServiceProvider"
-      ]
+      ],
+      "aliases": {
+        "ISO369": "ISO369\\Laravel\\Facade"
+      }
     }
   }
 }
